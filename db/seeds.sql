@@ -1,4 +1,4 @@
-USE employees_db;
+
 INSERT INTO departments (name)
 VALUES
 ("Design"),                     
@@ -6,8 +6,7 @@ VALUES
 ("Art"),                        
 ("Animation"),                  
 ("Programming"),                
-("Software Development"),  
-("Quality Assurance");     
+("Software Development");      
 
 INSERT INTO roles (title, salary, department_id)
 VALUES
@@ -22,19 +21,18 @@ VALUES
 ("Lead Programmer", 115000, 5),              
 ("Programmer", 100000, 5),                   
 ("Lead Software Developer", 130000, 6),      
-("Software Developer", 100000, 6),
-("Quality Assurance Lead", 85000, 7);           
+("Software Developer", 100000, 6);         
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-("Alivia", "Thomas", 9, NULL),               
-("Uriah", "Belletto", 1, NULL),                          
-("Ashleigh", "Chute", 12, 4),               
-("Ladonna", "Heikes", 11, NULL),            
-("Ashleigh", "Raabe", 12, 4),               
-("William", "Colvin III", 3, NULL),         
-("Kelly", "Synder", 4, 6),                  
-("Sara", "McSorley", 5, NULL),              
-("Jeff", "Doering", 10, 1),                 
-("Jordan", "Mayou", 1, NULL),              
-("Scarlett", "Rose", 13, NULL);
+("Alivia", "Thomas", 1, NULL),               
+("Uriah", "Belletto", 2, 1),                          
+("Ashleigh", "Chute", 3, NULL),               
+("Ladonna", "Heikes", 4, 3),            
+("Ashleigh", "Raabe", 5, NULL),               
+("William", "Colvin III", 6, 5),         
+("Kelly", "Synder", 7, NULL),                  
+("Sara", "McSorley", 8, 7),              
+("Jeff", "Doering", 9, NULL),                 
+("Jordan", "Mayou", 10, 9),              
+("Scarlett", "Rose", 11, NULL);
