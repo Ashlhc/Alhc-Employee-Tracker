@@ -1,9 +1,29 @@
 {
   "dependencies": {
+    "console": "^0.7.2",
     "console.table": "^0.10.0",
+    "dsstore": "^3.1.0",
     "express": "^4.18.2",
     "inquirer": "^8.2.4",
     "mysql": "^2.18.1",
-    "mysql2": "^3.2.4"
-  }
+    "mysql2": "^3.2.4",
+    "table": "^6.8.1"
+  },
+  "name": "alhc-employee-tracker",
+  "description": "##  Description This is meant to be a command line application to be used by companies to make a database of their employees and everything that comes with that including things like their role, salary, and id.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashlhc/Alhc-Employee-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashlhc/Alhc-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Ashlhc/Alhc-Employee-Tracker#readme"
 }
