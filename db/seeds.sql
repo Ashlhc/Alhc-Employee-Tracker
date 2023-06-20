@@ -7,7 +7,6 @@ VALUES
 ("Animation"),                  
 ("Programming"),                
 ("Software Development");      
-
 INSERT INTO roles (title, salary, department_id)
 VALUES
 ("Lead Designer", 130000, 1),                
@@ -36,3 +35,4 @@ VALUES
 ("Jeff", "Doering", 9, NULL),                 
 ("Jordan", "Mayou", 10, 9),              
 ("Scarlett", "Rose", 11, NULL);
+
